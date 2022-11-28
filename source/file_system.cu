@@ -294,6 +294,7 @@ __device__ void fs_read(FileSystem *fs, uchar *output, u32 size, u32 fp)
     int address = block_addr(fs,fp);
     for (int i = 0; i < size; i++) {
       output[i] = fs->volume[address + i];
+      printf("");
     }
   }
 }
