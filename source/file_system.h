@@ -14,6 +14,7 @@ typedef uint32_t u32;
 #define LS_S 1
 #define RM 2
 
+
 struct FileSystem {
 	uchar *volume;
 	int SUPERBLOCK_SIZE;
